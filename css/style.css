@@ -276,7 +276,7 @@ p[class='text-picture'] {
 
 .margin-lorem-ipsum {
   margin: 15px;
-  ;
+  position: relative;
 }
 
 .photo-box {
@@ -505,12 +505,12 @@ p[class='text-picture'] {
 }
 
 .padding-komp {
-padding-left:90px;
+  padding-left: 90px;
 }
 
 .padding-mob {
-padding-left:113px;
+  padding-left: 113px;
 }
 .padding-graf {
-padding-left:94px;
+  padding-left: 94px;
 }
