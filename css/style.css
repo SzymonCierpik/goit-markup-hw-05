@@ -263,7 +263,6 @@ p[class='text-picture'] {
   display: flex;
   list-style: none;
   background-color: var(--whitehihi);
-
 }
 
 .location-our-team {
@@ -351,12 +350,6 @@ p[class='text-picture'] {
 
 .agency {
   margin-left: 93px;
-}
-
-.border-hihi {
-  border-top: #2196f3;
-  height: 3px;
-  
 }
 
 .portfolio,
@@ -499,15 +492,25 @@ p[class='text-picture'] {
 
 .label {
   position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.142857143;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  padding: 27px 0px;
-  bottom: 0;
-  width: 100%;
-  background: rgba(47, 48, 58, 0.8);
   color: var(--whitehihi);
+  margin-top: 251px;
+  margin-bottom: 27px;
+}
+
+.padding-komp {
+padding-left:90px;
+}
+
+.padding-mob {
+padding-left:113px;
+}
+.padding-graf {
+padding-left:94px;
 }
