@@ -543,7 +543,7 @@ p[class='text-picture'] {
 }
 
 .box {
-  background-size: cover;
+  background-size: contain;
   width: 370px;
   height: 294px;
   margin-left: auto;
