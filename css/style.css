@@ -543,7 +543,6 @@ p[class='text-picture'] {
 }
 
 .box {
-  background-image: url('../images/portfolio_img9.jpg');
   background-size: cover;
   width: 370px;
   height: 294px;
@@ -552,20 +551,47 @@ p[class='text-picture'] {
   overflow: hidden;
 }
 
+.img-tech {
+  background-image: url('../images/portfolio_img9.jpg');
+}
+
+.img-diz {
+  background-image: url('../images/portfolio_img1.jpg');
+}
+
+.img-ap {
+  background-image: url('../images/portfolio_img2.jpg');
+}
+
+.img-prime {
+  background-image: url('../images/portfolio_img3.jpg');
+}
+
+.img-pro {
+  background-image: url('../images/portfolio_img4.jpg');
+}
+
+.img-insp {
+  background-image: url('../images/portfolio_img5.jpg');
+}
+
+.img-mag {
+  background-image: url('../images/portfolio_img6.jpg');
+}
+
+.img-lab {
+  background-image: url('../images/portfolio_img7.jpg');
+}
+
+.img-gro {
+  background-image: url('../images/portfolio_img8.jpg');
+}
 .overlay {
   width: 100%;
   height: 100%;
   transform: translatey(100%);
-  transition: transform 250ms linear;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   background: rgba(33, 150, 243, 0.9);
-}
-
-.box:hover .overlay {
-  transform: none;
-}
-
-.boxmaster {
-  position: relative;
 }
 
 .overlay p {
@@ -582,19 +608,14 @@ p[class='text-picture'] {
   text-align: left;
 }
 
-.item-portfolio-left:hover {
+.item-portfolio-center:hover,
+.item-portfolio-left:hover,
+.item-portfolio-right:hover {
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.item-portfolio-center:hover {
-  border: 1px solid #eeeeee;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.item-portfolio-right:hover {
-  border: 1px solid #eeeeee;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+.box:hover .overlay {
+  transform: translate(0);
 }
