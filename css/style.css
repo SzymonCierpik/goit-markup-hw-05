@@ -374,6 +374,10 @@ p[class='text-picture'] {
 .nav-list {
   display: flex;
   position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .menu {
@@ -536,4 +540,61 @@ p[class='text-picture'] {
   width: 100%;
   background: rgba(47, 48, 58, 0.8);
   color: var(--whitehihi);
+}
+
+.box {
+  background-image: url('../images/portfolio_img9.jpg');
+  background-size: cover;
+  width: 370px;
+  height: 294px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  transform: translatey(100%);
+  transition: transform 250ms linear;
+  background: rgba(33, 150, 243, 0.9);
+}
+
+.box:hover .overlay {
+  transform: none;
+}
+
+.boxmaster {
+  position: relative;
+}
+
+.overlay p {
+  color: var(--whitehihi);
+  padding-left: 24px;
+  padding-top: 49px;
+  padding-right: 46px;
+  padding-bottom: 49px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.item-portfolio-left:hover {
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.item-portfolio-center:hover {
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.item-portfolio-right:hover {
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
