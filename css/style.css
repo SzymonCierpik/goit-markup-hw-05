@@ -631,17 +631,17 @@ p[class='text-picture'] {
 
 .modal {
   position: absolute;
-  height: 581px;
-  width: 528px;
+  height: 500px;
+  width: 650px;
   left: 536px;
   top: 221px;
-  border-radius: 70px;
-  background-color: rgba(44, 243, 33, 0.9);
-  border: 10px solid rgb(104, 43, 226);
+  border-radius: 20%;
+  background-color: rgba(44, 243, 33, 0.4);
+  border: 5px solid rgb(104, 043, 226);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 50px 100px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px rgba(54, 4, 64, 0.999);
 }
 
 .close {
@@ -652,5 +652,5 @@ p[class='text-picture'] {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
