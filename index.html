@@ -48,7 +48,9 @@
     <main>
       <div class="gray-box container foto-graybox">
         <h1 class="container2">EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU<br /></h1>
-        <div class="position-button"><button class="button">Zamów usługę</button></div>
+        <div class="position-button">
+          <button type="button" class="button" data-modal-open>Zamów usługę</button>
+        </div>
       </div>
       <section id="lorem-ipsum" class="four-boxes">
         <div class="container">
@@ -446,5 +448,13 @@
         </ul>
       </div>
     </footer>
+
+    <div class="backdrop">
+      <div class="modal">
+        <button type="button" class="close"></button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
