@@ -464,6 +464,7 @@ body {
 .address__item--color {
   color: var(--white);
 }
+
 .address__item--contact {
   text-decoration: none;
   color: var(--gray-footer);
@@ -725,6 +726,7 @@ body {
 .heading__image {
   position: relative;
 }
+
 .what-we-do__signature {
   position: absolute;
   font-weight: 700;
