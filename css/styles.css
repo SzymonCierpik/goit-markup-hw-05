@@ -639,7 +639,6 @@ body {
   text-align: left;
 }
 
-
 .backdrop {
   position: fixed;
   left: 0;
@@ -652,10 +651,10 @@ body {
 
 .modal {
   position: absolute;
-  height: 528px;
-  width: 581px;
+  width: 528px;
+  height: 581px;
   border-radius: 4px;
-  background-color: var(--whitehihi);
+  background-color: var(--white);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

@@ -66,7 +66,9 @@
             <h1 class="wallpaper__heading">
               EFEKTYWNE ROZWIĄZANIA<br />DLA WASZEGO BIZNESU
             </h1>
-            <button type="button" class="button__item">Zamów usługę</button>
+            <button type="button" class="button__item" data-modal-open>
+              Zamów usługę
+            </button>
           </div>
         </div>
       </div>
@@ -435,5 +437,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close" data-modal-close>
+          <svg>
+            <use href="./images/icons.svg#icon-close" height="30px" width="30px"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
