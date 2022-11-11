@@ -150,10 +150,22 @@ body {
   color: var(--blue);
 }
 
-.menu__item--active::after {
+.blue-line-agency::after {
   content: '';
   display: block;
   width: 53px;
+  height: 4px;
+  margin-left: 46px;
+  margin-top: 29px;
+  background: #2196f3;
+  border-radius: 2px;
+  position: absolute;
+}
+
+.blue-line-portfolio::after {
+  content: '';
+  display: block;
+  width: 58px;
   height: 4px;
   margin-left: 46px;
   margin-top: 29px;
